@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.border-b{
+  @apply border-2 border-blue-600
+}
+.border-r{
+  @apply border-2 border-red-600
+}
+.border-g{
+  @apply border-2 border-green-600
+}
+.border-y{
+  @apply border-2 border-yellow-600
+}
+.b{
+  @apply border-2 border-black
+}
+
+*{
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px;
+
+}
+
+.dark-mode{
+  background-color: rgb(80, 77, 77);
+  color:white;
+}
